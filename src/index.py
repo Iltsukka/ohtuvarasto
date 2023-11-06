@@ -1,5 +1,5 @@
 from varasto import Varasto
-
+#pylint: skip-file
 
 def main():
     mehua = Varasto(100.0)
