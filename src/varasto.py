@@ -23,7 +23,9 @@ class Varasto:
 
     def lisaa_varastoon(self, maara):
         if maara < 0:
-            return
+            if maara <-2:
+                if maara <-3:
+                    return
         if maara <= self.paljonko_mahtuu():
             self.saldo = self.saldo + maara
         else:
